@@ -16,6 +16,13 @@ const UsernameMenu = () => {
             {user?.email}
         </DropdownMenuTrigger>
         <DropdownMenuContent>
+
+            <DropdownMenuItem>
+                <Link to="/manage-restaurant" className="font-bold text-orange-500">
+                    Manage Restaurant
+                </Link>
+            </DropdownMenuItem>
+
             <DropdownMenuItem>
                 <Link to="/user-profile" className="font-bold text-orange-500">
                     User Profile
